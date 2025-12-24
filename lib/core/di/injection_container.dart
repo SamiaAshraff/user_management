@@ -1,6 +1,5 @@
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
-import 'package:pcfc_assignment/screens/users/data/data_source/remote_users_data_source.dart';
 import 'package:pcfc_assignment/screens/users/data/repository_impl/users_repository_impl.dart';
 import 'package:pcfc_assignment/screens/users/presentation/bloc/users_bloc.dart';
 

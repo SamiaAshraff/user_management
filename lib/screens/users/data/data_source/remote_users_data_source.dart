@@ -29,7 +29,7 @@ class RemoteUsersDataSourceImpl extends RemoteUsersDataSource {
   Future<Either<Failure, int>> addUser(UsersModel user) async {
     try {
       final box = Hive.box<UsersModel>(boxName);
-      final id = await box.add(user); // Auto-increment ID
+      final id = await box.add(user);
       return Right(id);
     } catch (e) {
       return Left(CacheFailure('Failed to add user: ${e.toString()}'));
