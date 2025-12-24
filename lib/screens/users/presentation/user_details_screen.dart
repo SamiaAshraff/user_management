@@ -40,7 +40,6 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       appBar: CustomAppBar(title: 'User Details'),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),

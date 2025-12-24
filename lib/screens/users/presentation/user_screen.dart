@@ -24,7 +24,6 @@ class _UserScreenState extends State<UserScreen> {
       child: PopScope(
         canPop: false,
         child: Scaffold(
-          // backgroundColor: Colors.white,
           appBar: CustomAppBar(title: 'Users'),
           body: BlocConsumer<UsersBloc, UsersState>(
             buildWhen: _buildWhen,
